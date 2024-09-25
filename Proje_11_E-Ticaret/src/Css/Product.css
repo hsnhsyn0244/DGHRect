@@ -1,0 +1,44 @@
+.card{
+    width: 200px;
+    height: 470px;
+    box-shadow: 1px 4px 3px lightgray;
+    margin-right: 40px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.card:hover{
+    transition: all 0.7s;
+    box-shadow: 1px 4px 3px rgb(95, 94, 94);
+    cursor: pointer;
+}
+.image{
+    width: 180px;
+    height: 250px;
+}
+.title{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.description{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.product-button{
+    margin-top: 4px;
+    background-color: orangered;
+    width: 90%;
+    height: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    }
+    .product-button:hover{
+        cursor: pointer;
+        }
