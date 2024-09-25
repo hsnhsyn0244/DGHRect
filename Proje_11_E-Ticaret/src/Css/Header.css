@@ -1,0 +1,25 @@
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.logo-text{
+    margin-left: 2%;
+    font-size: 16px;
+    font-family: arial;
+    font-weight: 900;
+}
+.search-input{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 5px 10px;
+    outline: none;
+    margin-right: 20px;
+}
+.icon{
+    font-size: 22px;
+    margin-right: 10px;
+}
+.icon:hover{
+    cursor: pointer;
+}
