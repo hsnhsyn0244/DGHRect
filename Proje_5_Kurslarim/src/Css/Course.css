@@ -1,0 +1,14 @@
+.course-main{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.enstruman{
+width: 230px;
+height: 350px;
+border: 1px solid lightgray;
+border-radius: 20px;
+
+}
