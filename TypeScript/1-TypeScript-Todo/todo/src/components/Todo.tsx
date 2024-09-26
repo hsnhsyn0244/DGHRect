@@ -62,7 +62,7 @@ function Todo({ todoProps }: TodoProps) {
           }
         />
       ) : (
-        <div>{newTodo}</div>
+        <div>{content}</div>
       )}
       <div style={{}}>
         <IoMdRemoveCircleOutline
