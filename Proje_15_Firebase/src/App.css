@@ -1,0 +1,41 @@
+.form-main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(33, 34, 36);
+}
+.form-border-div {
+  width: 500px;
+}
+.form-text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.form-label {
+  margin-bottom: 5px;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+.form-input {
+  border: none;
+  border-bottom: 1px solid white;
+  color: white !important;
+  background-color: rgb(33, 34, 36) !important;
+}
+
+.form-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  Button {
+    color: white !important;
+    border: 1px solid lightgray;
+    cursor: pointer;
+  }
+}
